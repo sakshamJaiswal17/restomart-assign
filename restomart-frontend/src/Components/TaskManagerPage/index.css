@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body{
+  background-color: #1e1e1e;; /* Or replace with one of the options above */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.task-manager-page{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fef8f3;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.page-heading{
+    font-family: roboto;
+    /* color: grey; */
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.add-task-form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  padding: 24px;
+  border-radius: 12px;
+
+  /* Animation */
+  animation: fadeSlideIn 1.0s ease-out;
+}
+
+
+
+
+.form-heading{
+    font-family: sans-serif;
+}
+
+.label{
+    font-family: roboto;
+}
+
+.input-container{
+    padding: 8px;
+    font-family: roboto;
+    font-size: 12px;
+    width: 70%;
+    margin-top: -12px;
+    margin-bottom: 12px;
+    margin-right: 4px;
+}
+
+.submit-btn{
+    background-color: #0d6efd;
+    padding: 6px;
+    border-radius: 8px;
+    font-family: roboto;
+    color: #fff;
+    align-self: flex-start;
+    border: 0;
+    width: 26%;
+    height: 40px;
+    font-weight: bold;
+}
+
+.submit-btn:hover{
+    cursor: pointer;
+}
+
+.tasks-list-container{
+    width: 70%;
+}
