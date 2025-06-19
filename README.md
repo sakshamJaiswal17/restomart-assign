@@ -20,10 +20,46 @@ Build a simple full-stack Task Manager app using:
 
 ---
 
-## 🚀 How to Run the Project
+## Authors
 
-### 1. Clone the Repository
+- Saksham Jaiswal
+
+
+## Run Locally
+
+Clone the project
 
 ```bash
-git clone https://github.com/MadhukarRayapudi/restomart-assignment.git
-cd restomart-assignment
+  git clone https://github.com/sakshamJaiswal17/restomart-assign.git
+```
+Go to the project directory
+
+```bash
+  cd restomart-assign
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the  backend server
+
+```bash
+  cd restomart-backend
+  node server.js
+```
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the front  server in new terminal 
+
+```bash
+  cd restomart-frontend
+  npm start
+```
+
